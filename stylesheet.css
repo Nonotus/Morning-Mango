@@ -1,0 +1,160 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+.font {
+  font-family: "Nunito";
+}
+
+nav {
+  border-bottom: 3px solid #EA8B2C;
+}
+
+.nav-background-color {
+  background-color: #FDB95B !important;
+}
+
+.rotate-image {
+  transform: rotate(25deg);
+}
+
+.burger span {
+  height: 3px !important;
+  /* thickness */
+  width: 20px !important;
+  /* length */
+  background-color: white !important;
+  /* line color */
+}
+
+.navbar-menu {
+  background-color: #FDB95B;
+  position: relative;
+  top: 86%;
+  left: -180%;
+  width: 260%;
+}
+
+
+.text-outline {
+  text-shadow:
+    -2px -2px 0 #FF7F00,
+    /* Top-left shadow */
+    2px -2px 0 #FF7F00,
+    /* Top-right shadow */
+    -2px 2px 0 #FF7F00,
+    /* Bottom-left shadow */
+    2px 2px 0 #FF7F00;
+}
+
+.header-color {
+  background-color: #FFF2A7 !important;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.normal {
+  font-weight: normal !important;
+}
+
+.banner-button {
+  background-color: #FF9932;
+  border: 2px solid #FF7F00;
+  box-shadow: 0px 5px 8px #b68643;
+  border-radius: 25px;
+  padding: 7% 15%;
+}
+
+.rounding-bottom {
+  border-bottom-left-radius: 80% 6%;
+  border-bottom-right-radius: 80% 6%;
+}
+
+.border-bottom-colored {
+  border-bottom: 6px solid #EA8B2C
+}
+
+.position-border-fix {
+  position: relative;
+  top: -3%;
+  z-index: -1;
+  padding-top: 17%;
+}
+
+.section1-bg {
+  background-color: #FFFADF;
+}
+
+.section1-title {
+  font-size: 150%;
+  font-style: italic;
+}
+
+.title-deco {
+  text-decoration: underline;
+}
+
+.section-sub-color {
+  color: #FF9932;
+}
+
+.games-header {
+  background-color: #FF7F00;
+  color: white;
+  border-radius: 8px;
+}
+
+.game-position-fix {
+  position: relative;
+  top: -5%;
+  z-index: -2;
+}
+
+.game-card {
+  background: #ffbd76;
+  border-radius: 15px;
+}
+
+.game-card-img {
+  width: 90%;
+  margin: 0 auto;
+  /* keeps it centered */
+  border-radius: 15px;
+}
+
+.leaderboard-card {
+  background: #FEF5E9;
+  border: 2px solid #FF7F00;
+  border-radius: 15px;
+}
+
+.position-fix {
+  position: relative;
+  top: -8.5%;
+  z-index: -3;
+}
+
+.custom-padding {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.footer-bg {
+  background: #FDB95B;
+}
+
+.footer-position-fix {
+  position: relative;
+  top: -11%;
+  z-index: -2;
+}
+
+
+.rounding-top {
+  border-top-left-radius: 80% 15%;
+  border-top-right-radius: 80% 15%;
+}
