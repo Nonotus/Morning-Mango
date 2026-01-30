@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Mango</title>
+  <link rel="icon" type="image/x-icon" href="image-removebg-preview (19).png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Nunito'>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body id="body" class="dark-main">
+  <!-- Navbar -->
+  <nav id="nav" class="navbar is-fluid nav-background-color pt-1 pb-1 dark-main" role="navigation"
+    aria-label="main navigation">
+    <div class="navbar-brand">
+      <!-- Title -->
+      <a class="navbar-item is-size-4 has-text-weight-bold has-text-white text-outline font ml-4 mr-5">
+        <img src="image-removebg-preview (19).png" alt="logo" class="mr-1 rotate-image">
+        Morning Mango
+      </a>
+
+      <!-- Burger menu (shows on mobile) -->
+      <a class="navbar-burger burger burger-button" role="button" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasic">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasic" class="navbar-menu">
+      <div class="navbar-start font is-size-5">
+        <a class="navbar-item has-text-weight-bold mr-4 active">Home</a>
+        <a class="navbar-item has-text-weight-bold mr-4 active">About</a>
+        <a class="navbar-item has-text-weight-bold mr-4 active">Contact Us</a>
+        <a id="changecolor" class="navbar-item has-text-weight-bold">Change Theme</a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <img
+            src="default-avatar-profile-icon-set-with-long-shadow-user-account-placeholder-symbol-vector-removebg-preview.png"
+            alt="logo" class="">
+        </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header id="header"
+    class="hero is-light is-medium font nav-background-color homepage-border-bottom-colored dark-main">
+    <div
+      class="hero-body container is-fluid is-flex is-flex-direction-column hero-login is-align-items-center pt-3 pl-0 pr-0 pb-3">
+
+      <div class=" container hero-img has-text-centered mt-5 mb-5">
+        <img class="banner-img-login has-text-centered" src="Zark_Gen_Math_Brochure-removebg-preview.png"
+          alt="banner image">
+      </div>
+      <div class="container is-flex is-flex-direction-column is-align-items-center has-text-centered hero-text-login">
+        <!-- Title -->
+        <h1 id="headertitlelogin" class="title has-text-centered mb-5 orange-text">
+          Welcome back, Zark !
+        </h1>
+
+        <!-- Subtitle -->
+        <h2 class="title is-4 has-text-centered white-text header-subtext-login">
+          Hop back in and pick-up where you left off !
+        </h2>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <section class="section loginpage-main-section font rounding-bottom dark-secondary">
+    <div class="container">
+      <nav class="level box p-4 mb-5 is-radius">
+
+        <!-- Level -->
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Level</p>
+            <p class="title is-4">7</p>
+            <p class="is-size-7 has-text-grey">Intermediate</p>
+          </div>
+        </div>
+
+        <!-- Overall Progress -->
+        <div class="level-item has-text-centered">
+          <div class="is-fullwidth">
+            <p class="heading">Overall Progress</p>
+            <progress class="progress progress-bar" value="68" max="100">
+              68%
+            </progress>
+            <p class="is-size-7 has-text-grey">680 / 1000 XP</p>
+          </div>
+        </div>
+
+        <!-- Current Ranking -->
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Current Ranking</p>
+            <p class="title is-4">#12</p>
+            <p class="is-size-7 has-text-grey">Top 10%</p>
+          </div>
+        </div>
+
+      </nav>
+      <div class="columns">
+
+        <!-- RECENT GAMES & ACTIVITIES -->
+        <div class="column is-8 mb-6">
+          <h2 class="title is-4 mb-4 orange-text">Recent Games & Activities</h2>
+
+          <div class="box mb-5 loginpage-box-bgcolor ">
+            <h3 class="title is-6">Vocabulary Challenge</h3>
+            <p class="is-size-7 has-text-grey">
+              Last played: 2 hours ago
+            </p>
+            <progress class="progress progress-bar mt-3" value="70" max="100">
+              70%
+            </progress>
+          </div>
+
+          <div class="box mb-5 loginpage-box-bgcolor ">
+            <h3 class="title is-6">Grammar Quiz</h3>
+            <p class="is-size-7 has-text-grey">
+              Last played: Yesterday
+            </p>
+            <progress class="progress progress-bar mt-3" value="45" max="100">
+              45%
+            </progress>
+          </div>
+
+          <div class="box loginpage-box-bgcolor ">
+            <h3 class="title is-6">Listening Practice</h3>
+            <p class="is-size-7 has-text-grey">
+              Last played: 3 days ago
+            </p>
+            <progress class="progress progress-bar mt-3" value="90" max="100">
+              90%
+            </progress>
+          </div>
+        </div>
+
+        <!-- LEADERBOARDS -->
+        <div class="column is-4 ">
+          <h2 class="title is-4 mb-4 orange-text">Leaderboards</h2>
+
+          <div class="box loginpage-box-bgcolor ">
+            <article class="media mb-3">
+              <div class="media-left">
+                🥇
+              </div>
+              <div class="media-content">
+                <p class="has-text-weight-semibold">Alex</p>
+                <p class="is-size-7 has-text-grey">1,250 pts</p>
+              </div>
+            </article>
+
+            <article class="media mb-3">
+              <div class="media-left">
+                🥈
+              </div>
+              <div class="media-content">
+                <p class="has-text-weight-semibold">Jamie</p>
+                <p class="is-size-7 has-text-grey">1,120 pts</p>
+              </div>
+            </article>
+
+            <article class="media">
+              <div class="media-left">
+                🥉
+              </div>
+              <div class="media-content">
+                <p class="has-text-weight-semibold">Taylor</p>
+                <p class="is-size-7 has-text-grey">980 pts</p>
+              </div>
+            </article>
+
+            <article class="media">
+              <div class="media-left">
+                🎖️
+              </div>
+              <div class="media-content">
+                <p class="has-text-weight-semibold">Carlson</p>
+                <p class="is-size-7 has-text-grey">980 pts</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="gamesection" class="section container is-fluid has-text-centered font pt-5 game-position-fix dark-main">
+    <div>
+      <h3 class="title container games-header-login mt-6 p-1">Games</h2>
+        <p id="games-subtitle" class="subtitle mt-2 white-text">
+          Choose from a collection of games, each designed to cover a
+          specific skill within the English language.
+        </p>
+    </div>
+
+    <div class="games-container">
+      <div class="fixed-grid mt-6 mb-2 align">
+        <div class="cell grid game-card-login pt-4">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-grid mt-6 mb-2 align">
+        <div class="cell grid game-card-login pt-4 reverse">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-grid mt-6 mb-2  align">
+        <div class="cell grid game-card-login pt-4">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-grid mt-6 mb-6 align">
+        <div class="cell grid game-card-login pt-4 reverse">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer"
+    class="footer container is-fluid has-text-centered font footer-bg rounding-top pb-4 footer-position-fix">
+    <div class=" has-text-centered mb-6">
+      <h3 class="title is-size-5 has-text-weight-bold is-inline pr-3">About Us</h3>
+      <h3 class="title is-size-5 has-text-weight-bold is-inline pr-3">Services</h3>
+      <h3 class="title is-size-5 has-text-weight-bold is-inline pr-3">Games</h3>
+      <h3 class="title is-size-5 has-text-weight-bold is-inline ">Other</h3>
+    </div>
+    <h1 class="subtitle is-size-6 mt-6">Copyright © Lorem Ipsum Dolor Sit 2025.</h1>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
