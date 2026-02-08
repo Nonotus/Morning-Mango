@@ -1,0 +1,211 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: nunito, Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  /* horizontal center */
+  align-items: center;
+  /* vertical center */
+  background-image: url(brown-wood-textured-background-with-design-space_53876-160425.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  height: 90%;
+  background-image: url(istockphoto-484715057-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.game-frame {
+  width: 100%;
+  height: 420px;
+  border: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.gametitle {
+  margin-bottom: 0;
+}
+
+.gamesubtitle {
+  margin-top: 0;
+  font-weight: 100;
+  font-size: 150%;
+}
+
+.questionbox {
+  display: flex;
+  align-items: center;
+}
+
+.questionandbtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  font-size: 360%;
+  text-align: left;
+  color: white;
+  margin: 8% 0% 2% 0%;
+  padding-left: 5%;
+}
+
+.listen-btn {
+  font-family: Nunito, Comic sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  color: white;
+  height: 15%;
+  text-align: center;
+  width: 15%;
+  background: #ff7f00;
+  border: 5px solid #ff7f00;
+  border-radius: 10px;
+  margin: 0% 0% 4% 10%;
+  cursor: pointer;
+}
+
+.listen-btn:hover {
+  background: #FDB95B;
+  position: relative;
+  left: 1%
+}
+
+.questionimage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.image {
+  width: 55%;
+}
+
+.choices {
+  display: flex;
+  margin-bottom: 2.5%;
+}
+
+.choicebox {
+  display: block;
+  width: 25%;
+  font-family: Nunito, Comic sans-serif;
+  font-weight: bold;
+  font-size: 225%;
+  color: white;
+  margin: 10px auto;
+  padding: 1.35%;
+  border: 5px solid #ff7f00;
+  border-radius: 15px;
+  background: #FDB95B;
+  cursor: pointer;
+}
+
+.choicebox:hover {
+  background: #ff7f00;
+  position: relative;
+  top: -5%
+}
+
+.choicebox.correct {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 0 15px rgba(76, 175, 80, 0.7);
+}
+
+.choicebox.wrong {
+  background-color: #F44336;
+  color: white;
+  animation: shake 0.3s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  75% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.utility-btns {
+  display: flex;
+  margin-bottom: 2.5%;
+}
+
+
+@media (max-width: 1150px) {
+  .question {
+    font-size: 300%;
+  }
+
+  .choicebox {
+    font-size: 180%;
+  }
+}
+
+@media (max-width: 950px) {
+  .question {
+    text-align: center;
+    padding: 0 2% 0 2%;
+  }
+
+  .questionimage {
+    display: none;
+  }
+
+  .listen-btn {
+    margin: auto auto 4% auto;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .choices {
+    flex-direction: column;
+  }
+
+  .question {
+    font-size: 215%;
+  }
+
+  .choicebox {
+    width: 50%;
+  }
+}

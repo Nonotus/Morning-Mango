@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Mango</title>
+  <link rel="icon" type="image/x-icon" href="image-removebg-preview (19).png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Nunito'>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body id="body" class="dark-main">
+
+  <!-- Navbar -->
+  <nav id="nav" class="navbar is-fluid nav-background-color pt-1 pb-1 dark-main" role="navigation"
+    aria-label="main navigation">
+    <div class="navbar-brand">
+      <!-- Title -->
+      <a class="navbar-item is-size-4 has-text-weight-bold has-text-white text-outline font ml-4 mr-5">
+        <img src="image-removebg-preview (19).png" alt="logo" class="mr-1 rotate-image">
+        Morning Mango
+      </a>
+
+      <!-- Burger menu (shows on mobile) -->
+      <a class="navbar-burger burger burger-button" role="button" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasic">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasic" class="navbar-menu">
+      <div class="navbar-start font is-size-5">
+        <a class="navbar-item has-text-weight-bold mr-4 active">Home</a>
+        <a class="navbar-item has-text-weight-bold mr-4 active">About</a>
+        <a class="navbar-item has-text-weight-bold mr-4 active">Contact Us</a>
+        <a id="changecolor" class="navbar-item has-text-weight-bold">Change Theme</a>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <img
+            src="default-avatar-profile-icon-set-with-long-shadow-user-account-placeholder-symbol-vector-removebg-preview.png"
+            alt="logo" class="">
+        </div>
+  </nav>
+
+  <header id="header"
+    class="hero is-light is-medium font rounding-bottom nav-background-color border-bottom-colored dark-main">
+    <div
+      class="hero-body container is-fluid is-flex is-flex-direction-column is-align-items-center pt-3 pl-0 pr-0 pb-3">
+
+      <div class="container center">
+        <h1 class="title has-text-centered">Spelling Game</h1>
+
+        <div class="box  mb-6 iframe-cont">
+          <iframe src="common_english_words.html" class="game-frame" title="Spelling Game"></iframe>
+        </div>
+        <a href="common_english_words.html">
+        <button class="flscrn-btn"><img src="8373465.png" style="width: 15%;"> Fullscreen</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <section id="gamesection" class="section container is-fluid has-text-centered font pt-5 game-position-fix dark-main">
+    <div>
+      <h3 class="title container games-header-login mt-6 p-1">Games</h2>
+        <p id="games-subtitle" class="subtitle mt-2 white-text">
+          Choose from a collection of games, each designed to cover a
+          specific skill within the English language.
+        </p>
+    </div>
+
+    <div class="games-container">
+      <div class="fixed-grid mt-6 mb-2 align">
+        <div class="cell grid game-card-login pt-4">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-grid mt-6 mb-2 align">
+        <div class="cell grid game-card-login pt-4 reverse">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-grid mt-6 mb-2  align">
+        <div class="cell grid game-card-login pt-4">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed-grid mt-6 mb-6 align">
+        <div class="cell grid game-card-login pt-4 reverse">
+          <div class="game-img-container">
+            <img src="ChatGPT Image Oct 2, 2025, 10_53_03 PM.png" alt="game-img-1" class=" card-image game-card-img">
+          </div>
+          <div class="game-card-text">
+            <p class="card-content subtitle is-4 has-text-weight-bold pt-3 pb-0">Game Name</p>
+            <p class="card-content subtitle has-text-weight-bold pt-0 pb-5">Description of game goes here.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer"
+    class="footer container is-fluid has-text-centered font footer-bg rounding-top pb-4 footer-position-fix">
+    <div class=" has-text-centered mb-6">
+      <h3 class="title is-size-5 has-text-weight-bold is-inline pr-3">About Us</h3>
+      <h3 class="title is-size-5 has-text-weight-bold is-inline pr-3">Services</h3>
+      <h3 class="title is-size-5 has-text-weight-bold is-inline pr-3">Games</h3>
+      <h3 class="title is-size-5 has-text-weight-bold is-inline ">Other</h3>
+    </div>
+    <h1 class="subtitle is-size-6 mt-6">Copyright © Lorem Ipsum Dolor Sit 2025.</h1>
+  </footer>
+
+  <script src="script.js">
+    const iframe = document.getElementById('myIframe');
+
+    iframe.onload = () => {
+      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    };
+  </script>
+</body>
+
+</html>
